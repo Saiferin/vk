@@ -1,10 +1,10 @@
 package ru.netology.vk;
 
 public class Like {
-    private int count; //— число пользователей, которым понравилась запись;
-    private int userLikes; //[0,1] — наличие отметки «Мне нравится» от текущего пользователя (1 — есть, 0 — нет);
-    private int canLike;  //[0,1] — информация о том, может ли текущий пользователь поставить отметку «Мне нравится» (1 — может, 0 — не может);
-    private int canPublish;  //[0,1] — информация о том, может ли текущий пользователь сделать репост записи (1 — может, 0 — не может).
+    private int count; //— лайки;
+    private int userLikes; // наличие лайка 1 — есть, 0 — нет;
+    private int canLike;  //может поставить лайк или нет(1 — может, 0 — не может);
+    private int canPublish;  //может репост или не может (1 — может, 0 — не может).
 
     public Like(int count, int userLikes, int canLike, int canPublish) {
         this.count = count;
