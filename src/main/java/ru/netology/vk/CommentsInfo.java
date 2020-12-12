@@ -1,5 +1,4 @@
 package ru.netology.vk;
-
 public class CommentsInfo {
     private String headerPost;// название поста
     private String textContentPost;// текст поста
