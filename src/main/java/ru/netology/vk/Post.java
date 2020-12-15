@@ -8,16 +8,16 @@ public class Post {
     private int count = 20; //число записей
     private int postID;// ID поста
 
-    private Like[] likes;
+     private Like Likes;
 
-    public Like[] likes() {
+    public Like Likes() {
         // TODO: add logic
         return null;
     }
 
-    private CommentsInfo[] CommentsInfo;
+    private CommentsInfo CommentsInfo;
 
-    public CommentsInfo[] CommentsInfo() {
+    public CommentsInfo CommentsInfo() {
         // TODO: add logic
         return null;
     }
